@@ -11,7 +11,7 @@
 =end
 require 'mkmf'
 require 'rbconfig'
-$libs = append_library($libs, "supc++")
+$libs = append_library($libs, "stdc++")
 
 if File.exists?('/sw')
   DARWIN_PORT_DIR = '/sw'
